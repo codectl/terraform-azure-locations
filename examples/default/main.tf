@@ -1,5 +1,5 @@
 module "regions" {
-  source  = "cloudnationhq/locations/azure"
+  source  = "codectl/locations/azure"
   version = "~> 1.0"
 
   location = {

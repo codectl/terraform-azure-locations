@@ -29,16 +29,16 @@ locations:
       shortName: sdc
       regionalDisplayName: (Europe) Sweden Central
       pairedRegionName: swedensouth
-    - name: uksouth
-      displayName: UK South
-      shortName: uks
-      regionalDisplayName: (Europe) UK South
-      pairedRegionName: ukwest
     - name: westeurope
       displayName: West Europe
       shortName: we
       regionalDisplayName: (Europe) West Europe
       pairedRegionName: northeurope
+    - name: uksouth
+      displayName: UK South
+      shortName: uks
+      regionalDisplayName: (UK) UK South
+      pairedRegionName: ukwest
     - name: centralus
       displayName: Central US
       shortName: cus
@@ -59,6 +59,11 @@ locations:
       shortName: ea
       regionalDisplayName: (Asia Pacific) East Asia
       pairedRegionName: southeastasia
+    - name: indiasouthcentral
+      displayName: India South Central
+      shortName: null
+      regionalDisplayName: (Asia Pacific) India South Central
+      pairedRegionName: null
     - name: indonesiacentral
       displayName: Indonesia Central
       shortName: idc
@@ -98,6 +103,16 @@ locations:
       displayName: Austria East
       shortName: ae
       regionalDisplayName: (Europe) Austria East
+      pairedRegionName: null
+    - name: belgiumcentral
+      displayName: Belgium Central
+      shortName: null
+      regionalDisplayName: (Europe) Belgium Central
+      pairedRegionName: null
+    - name: denmarkeast
+      displayName: Denmark East
+      shortName: null
+      regionalDisplayName: (Europe) Denmark East
       pairedRegionName: null
     - name: francecentral
       displayName: France Central
@@ -219,6 +234,16 @@ locations:
       shortName: aus
       regionalDisplayName: Australia
       pairedRegionName: null
+    - name: austria
+      displayName: Austria
+      shortName: null
+      regionalDisplayName: Austria
+      pairedRegionName: null
+    - name: belgium
+      displayName: Belgium
+      shortName: null
+      regionalDisplayName: Belgium
+      pairedRegionName: null
     - name: brazil
       displayName: Brazil
       shortName: br
@@ -229,10 +254,25 @@ locations:
       shortName: cn
       regionalDisplayName: Canada
       pairedRegionName: null
+    - name: chile
+      displayName: Chile
+      shortName: null
+      regionalDisplayName: Chile
+      pairedRegionName: null
+    - name: denmark
+      displayName: Denmark
+      shortName: null
+      regionalDisplayName: Denmark
+      pairedRegionName: null
     - name: europe
       displayName: Europe
       shortName: er
       regionalDisplayName: Europe
+      pairedRegionName: null
+    - name: finland
+      displayName: Finland
+      shortName: null
+      regionalDisplayName: Finland
       pairedRegionName: null
     - name: france
       displayName: France
@@ -309,6 +349,11 @@ locations:
       shortName: qtr
       regionalDisplayName: Qatar
       pairedRegionName: null
+    - name: saudiarabia
+      displayName: Saudi Arabia
+      shortName: null
+      regionalDisplayName: Saudi Arabia
+      pairedRegionName: null
     - name: singapore
       displayName: Singapore
       shortName: sin
@@ -369,11 +414,6 @@ locations:
       shortName: sea
       regionalDisplayName: (Asia Pacific) Southeast Asia (Stage)
       pairedRegionName: null
-    - name: brazilus
-      displayName: Brazil US
-      shortName: bra
-      regionalDisplayName: (South America) Brazil US
-      pairedRegionName: brazilsoutheast
     - name: eastus2
       displayName: East US 2
       shortName: eus2
@@ -489,11 +529,6 @@ locations:
       shortName: szw
       regionalDisplayName: (Europe) Switzerland West
       pairedRegionName: switzerlandnorth
-    - name: ukwest
-      displayName: UK West
-      shortName: ukw
-      regionalDisplayName: (Europe) UK West
-      pairedRegionName: uksouth
     - name: uaecentral
       displayName: UAE Central
       shortName: uac
@@ -504,3 +539,8 @@ locations:
       shortName: bse
       regionalDisplayName: (South America) Brazil Southeast
       pairedRegionName: brazilsouth
+    - name: ukwest
+      displayName: UK West
+      shortName: ukw
+      regionalDisplayName: (UK) UK West
+      pairedRegionName: uksouth
